@@ -1,8 +1,5 @@
 {
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/2dbefc3c-81a4-4e7e-8e65-288bcceced04/resourceGroups/nikhiljsx_group-b061/providers/Microsoft.Web/sites/nikhiljsx",
-    "appService.deploySubpath": "my-portfolio\\dist"
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/47fa4c88-7fe4-4b1c-8fa6-ab85ef7b26e4/resourceGroups/my-portfolio-b_group/providers/Microsoft.Web/sites/my-portfolio-b",
+    "appService.deploySubpath": "my-portolio-b"
 }

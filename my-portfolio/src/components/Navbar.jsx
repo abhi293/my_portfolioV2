@@ -66,7 +66,7 @@ const Navbar = ({ setQuote }) => {
   return (
     <nav className="navbar">
       <a href="#" className="navbar__logo">
-        <i className="ri-code-s-slash-line"></i> NIKHIL SONI.
+        <i className="ri-code-s-slash-line"></i> ABHINAV ANAND.
       </a>
 
       {/* Hamburger Menu */}
