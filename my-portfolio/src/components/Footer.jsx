@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__brand">
-        <a href="#">NIKHIL.</a>
-        <p>© {currentYear} Nikhil Soni & Co.</p>
+        <a href="#">ABHINAV.</a>
+        <p>© {currentYear} Abhinav Anand & Co.</p>
       </div>
       <div className="footer__links">
         <a href="#">Home</a>

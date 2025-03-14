@@ -66,13 +66,13 @@ const Contact = () => {
       {status && <p className="status-message">{status}</p>}
       <div className="contact-details">
         <p>
-          📞 Phone: <a href="tel:+919263226570">+91 9263226570</a>
+          📞 Phone: <a href="tel:+917735999044">+91 7735999044</a>
         </p>
         <p>
-          📧 <strong>Email 1:</strong> <a href="mailto:nikhilprince973@gmail.com">nikhilprince973@gmail.com</a>
+          📧 <strong>Email 1:</strong> <a href="mailto:anandabhinav293@gmail.com">anandabhinav293@gmail.com</a>
         </p>
         <p>
-          📧 <strong>Email 2:</strong> <a href="mailto:nikhiljsx@gmail.com">nikhiljsx@gmail.com</a>
+          📧 <strong>Email 2:</strong> <a href="mailto:anandabhinav294@gmail.com">anandabhinav294@gmail.com</a>
         </p>
         <p>
           📍 <strong>Location:</strong> Bhubaneswar, India

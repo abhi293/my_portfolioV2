@@ -16,7 +16,7 @@ const Career = () => {
           <div className="education__info job__info">
             <h5><strong>Kalinga Institute of Industrial Technology (KIIT)</strong></h5>
             <p>Bachelor of Technology in Computer Science and Engineering</p>
-            <p><strong>CGPA:</strong> 8.55 (up to 5th Semester)</p>
+            <p><strong>CGPA:</strong> 9.06 (up to 5th Semester)</p>
             <p>2022 – 2026</p>
           </div>
         </div>
@@ -24,18 +24,18 @@ const Career = () => {
         <div className="job">
           <i className="ri-book-line"></i>
           <div className="education__info">
-            <h5><strong>DAV Public School, Walmi, Patna</strong></h5>
-            <p><strong>XIIth (CBSE)</strong> - 91.2%</p>
-            <p>2021</p>
+            <h5><strong>Model Multiple College, Janakpur, Nepal</strong></h5>
+            <p><strong>XIIth (CBSE)</strong> - 87.5%</p>
+            <p>2020</p>
           </div>
         </div>
 
         <div className="job">
           <i className="ri-book-line"></i>
           <div className="education__info">
-            <h5><strong>DAV Public School, Walmi, Patna</strong></h5>
-            <p><strong>Xth (CBSE)</strong> - 94.8%</p>
-            <p>2019</p>
+            <h5><strong>MIT School</strong></h5>
+            <p><strong>Xth (CBSE)</strong> - 92.5%</p>
+            <p>2018</p>
           </div>
         </div>
       </div>
@@ -46,9 +46,9 @@ const Career = () => {
         <div className="job">
           <i className="ri-cloud-line"></i>
           <div className="job__info">
-            <h5>Cloud Virtual Intern at <strong>AWS Academy via EduSkills</strong></h5>
+            <h5>Python FullStack Virtual Intern at <strong>eduSkills Foundation </strong></h5>
             <p>Oct 2024 - Dec 2024 · Remote</p>
-            <p>Completed a 10-week virtual internship focused on cloud computing technologies. Gained hands-on experience with AWS services such as EC2, S3, RDS, and IAM. Developed skills in cloud architecture, cost optimization, and security.</p>
+            <p>Completed a 10-week virtual internship focused on developing tools and websites using <strong>HTML, CSS, JS and Python,</strong> with enhanced compatibility and security</p>
           </div>
         </div>
         <p>Actively applying for more internship opportunities.</p>

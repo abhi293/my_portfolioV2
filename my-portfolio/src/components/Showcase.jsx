@@ -47,7 +47,7 @@ const Showcase = () => {
     <section className="showcase" id="showcase">
       <div className="showcase__header">
         <h3>Projects Overview:</h3>
-        <a href="https://github.com/nikhilij" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/abhi293" target="_blank" rel="noopener noreferrer">
           <button className="btn">See My Work</button>
         </a>
       </div>
