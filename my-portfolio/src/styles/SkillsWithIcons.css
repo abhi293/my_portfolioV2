@@ -1,0 +1,36 @@
+.skills-with-icons h3{
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.skills-with-icons {
+    padding: 2rem;
+    text-align: center;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.skill-icon {
+    font-size: 3rem;
+    color: #4a4a4a;
+}
+
+.skill-name {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}

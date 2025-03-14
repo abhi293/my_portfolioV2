@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "tailwindcss";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* a {
+    text-decoration: none;
+    color: #1f2937;
+} */
+
+img {
+    object-fit: cover;
+}
+
+body {
+    background: #f3f4f6;
+}
+
+.btn {
+    border: 2px solid #1f2937;
+    background: #1f2937;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    color: #1f2937;
+    background: #fff;
+    border-color: #e5e7eb;
+}
+
+.btn--secondary {
+    color: #1f2937;
+    background: #fff;
+    border: 2px solid #e5e7eb;
+}
+
+.btn--secondary:hover,
+.hero__socials a:hover {
+    border-color: #1f2937;
+    background: #1f2937;
+    color: #fff;
+}
+
+
+
+.navbar__menu,
+.menu,
+.footer__links {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar__link,
+.footer__links a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    position: relative;
+}
+
+.navbar__link:hover,
+.footer__links a:hover {
+    background-color: rgba(211, 211, 211, 0.6);
+    /* Light grey background */
+    color: black;
+    /* White text on hover */
+}
+
+
+.footer {
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__brand {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.footer__brand a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer__brand p {
+    font-size: 13px;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+    .footer {
+        padding: 20px 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+
+}

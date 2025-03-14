@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+
+.career__awards_container {
+    width: 60%;
+    margin: 45px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 20px;
+    background: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Title Styling */
+.awards__title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Awards Container */
+.awards__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Award Item */
+.award {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 18px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effects */
+.award:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Award Content */
+.award__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+/* Icon Styling */
+.award__content i {
+    font-size: 22px;
+    padding: 12px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Award Information */
+.award__info h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.award__info span {
+    font-weight: 700;
+    color: #374151;
+}
+
+.award__info p {
+    font-size: 14px;
+    color: #6b7280;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+/* External Link Styling */
+.award a i {
+    font-size: 22px;
+    color: #1f2937;
+    transition: color 0.3s ease;
+}
+
+.award a i:hover {
+    color: #4b5563;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 992px) {
+    .career__awards_container {
+        width: 80%;
+        padding: 40px 15px;
+    }
+
+    .award {
+        padding: 16px 20px;
+    }
+
+    .award__content i {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .award__info h5 {
+        font-size: 15px;
+    }
+
+    .award__info p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .career__awards_container {
+        width: 90%;
+    }
+
+    .awards__title {
+        font-size: 24px;
+    }
+
+    .award {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .award__content {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .award a {
+        margin-top: 8px;
+    }
+}
+
+.award__image {
+    width: 60%; /* Adjust as needed */
+    height: 50%;
+    border-radius: 8px; /* Optional for rounded corners */
+}

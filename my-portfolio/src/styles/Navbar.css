@@ -1,0 +1,151 @@
+/* 
+.hamburger {
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    display: none;
+    
+} */
+
+
+.navbar__hamburger {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 1.5rem;
+    align-self: flex-end;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    position: relative;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.navbar__logo i {
+    font-size: 30px;
+}
+
+
+.navbar__actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar__location h5 {
+    font-weight: 500;
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.navbar__location p {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.navbar__actions .btn {
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.navbar__location__sidebar{
+    display: none;
+}
+
+.navbar__location__sidebar h5 {
+    font-weight: 500;
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.navbar__location__sidebar p {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+
+    .navbar {
+        padding: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar__actions {
+        display: none;
+    }
+
+    .navbar__hamburger {
+        display: block;
+    }
+
+    .navbar__menu .navbar__location {
+        margin-top: 20px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar__menu {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /* Initially hidden on the left */
+        width: 250px;
+        height: 100vh;
+        background-color: #fff;
+        transition: transform 0.3s ease-in-out, left 0.3s ease-in-out;
+        /* Added left transition */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+
+    .navbar__menu--open {
+        left: 0;
+        transform: translateX(0);
+        /* Slides in smoothly */
+    }
+
+    .navbar__location__sidebar {
+        position: absolute;
+        bottom: 20px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar__location {
+        margin-top: 20px;
+        text-align: center;
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+    }
+
+
+}
+
+
+.navbar__menu.menu {
+    display: flex;
+    /* position: static; */
+}
+

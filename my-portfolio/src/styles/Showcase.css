@@ -1,0 +1,149 @@
+.showcase {
+    padding: 80px 60px 100px;
+    background: #f9fafb;
+}
+
+.showcase__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.showcase__header h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+/* Updated header button to match theme */
+.showcase__header .btn {
+    font-size: 14px;
+    padding: 8px 20px;
+    color: #fff;
+    background: #1f2937;
+    border: 2px solid #1f2937;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.showcase__header .btn:hover {
+    color: #1f2937;
+    background: #fff;
+    border-color: #e5e7eb;
+}
+
+/* Categories Section */
+.showcase__categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Project Card */
+.project-card {
+    position: relative;
+    width: 23%;
+    min-width: 280px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Project Image */
+.project-card__image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+/* Project Title */
+.project-card__title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 6px;
+}
+
+/* Project Date */
+.project-card__date {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+
+/* Project Description */
+.project-card__desc {
+    font-size: 14px;
+    color: #4b5563;
+    margin-bottom: 12px;
+}
+
+/* Project Button */
+.project-card .btn {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 2px solid #1f2937;
+    font-size: 14px;
+    color: #fff;
+    background: #1f2937;
+    transition: all 0.5s ease;
+    align-self: flex-start;
+}
+
+.project-card .btn:hover {
+    color: #1f2937;
+    background: #fff;
+    border-color: #e5e7eb;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1230px) {
+    .project-card {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .showcase {
+        padding: 60px 30px 80px;
+    }
+
+    .showcase__categories {
+        justify-content: center;
+    }
+
+    .project-card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .showcase__header h3 {
+        font-size: 24px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .project-card__image {
+        height: 200px;
+    }
+}

@@ -1,0 +1,140 @@
+.skills {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    /* border: 1px solid black; */
+}
+
+
+.skills__actions {
+    display: flex;
+    gap: 10px;
+}
+
+.skills__actions .btn {
+    padding: 6px 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.skills__desc,
+.skills__stats {
+    width: 50%;
+}
+
+
+.skills__desc {
+    padding-right: 80px;
+}
+
+.skills__desc h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.skills__desc p {
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.skills__stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.skills__stats i {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.skill__info {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.skill__info h5 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.skill__info p {
+    width: 50%;
+    text-align: center;
+    font-size: 14px;
+    color: #7a7a7a;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1230px) {
+    .skills__desc {
+        padding-right: 20px;
+    }
+
+    .skills__desc h3 {
+        font-size: 26px;
+    }
+
+    .skills__stats i {
+        font-size: 50px;
+    }
+
+    .skill__info h5 {
+        font-size: 20px;
+    }
+
+    .skill__info p {
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .skills {
+        flex-direction: column;
+        padding: 60px 30px 80px;
+    }
+
+    .skills__desc,
+    .skills__stats,
+    .category__title,
+    .category__desc,
+    .career__jobs,
+    .career__awards {
+        width: 100%;
+    }
+
+    .skills__desc {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .skills__stats {
+         display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill__info {
+        width: 50%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+}
