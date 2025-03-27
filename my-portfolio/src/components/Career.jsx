@@ -90,9 +90,9 @@ const Career = () => {
         <div className="job">
           <i className="ri-alarm-warning-line"></i>
           <div className="job__info">
-            <h5><strong>Browser Extension for Real-time Securities Alerts</strong></h5>
+            <h5><strong>Pest Detection and Recognition using multiple CNNs (in collab)</strong></h5>
             <p>Public</p>
-            <p>Developing an extension that provides real-time security alerts and updates.</p>
+            <p>Ongoing project that uses multiple algorithms of CNNs to detect and recognize pests in crops</p>
           </div>
         </div>
 

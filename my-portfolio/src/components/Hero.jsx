@@ -84,7 +84,7 @@ const Hero = ({ quote }) => {
               <span className="highlight__label">
                 💻 <b>Major Projects:</b>
               </span>
-              <span className="highlight__content">React Portfolio, AI Chatbot, UsePopcorn, Recruiter App.</span>
+              <span className="highlight__content">React Portfolio, AI Review Classifier,Movie Site, Recruiter App.</span>
             </li>
             <li>
               <span className="highlight__label">
@@ -107,10 +107,10 @@ const Hero = ({ quote }) => {
           </ul>
 
           <div className="hero__actions">
-            <a href="mailto:Abhinavprince973@gmail.com">
+            <a href="mailto:anandabhinav293@gmail.com">
               <button className="btn">🚀 Let&apos;s Build Something Great</button>
             </a>
-            <a href="https://github.com/Abhinavij" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/abhi293" target="_blank" rel="noopener noreferrer">
               <button className="btn btn--secondary">📂 View My Work</button>
             </a>
           </div>
@@ -118,25 +118,25 @@ const Hero = ({ quote }) => {
 
         <div className="hero__socials">
           <a
-            href="https://www.instagram.com/Abhinav.jsx/"
+            href="https://www.instagram.com/call.me_abhinav/"
             target="_blank"
             rel="noopener norefer</div>rer"
             title="Instagram"
           >
             <i className="ri-instagram-line"></i>
           </a>
-          <a href="https://github.com/Abhinavij" target="_blank" rel="noopener noreferrer" title="Dribbble">
+          <a href="https://github.com/abhi293" target="_blank" rel="noopener noreferrer" title="Dribbble">
             <i className="ri-github-fill"></i>
           </a>
           <a
-            href="https://linkedin.</a>com/in/Abhinavsoni973"
+            href="https://www.linkedin.com/in/abhinav-anand-9460b0200/"
             target="_blank"
             rel="noopener noreferrer"
             title="LinkedIn"
           >
             <i className="ri-linkedin-box-line"></i>
           </a>
-          <a href="https://x.</a>com/AbhinavSoni18992" target="_blank" rel="noopener noreferrer" title="YouTube">
+          <a href="https://x.com/abhinavanand833" target="_blank" rel="noopener noreferrer" title="YouTube">
             <i className="ri-twitter-x-line"></i>
           </a>
         </div>

@@ -3,14 +3,14 @@ const portfolioData = {
 
   projects: [
     {
-      name: "UsePopcorn",
-      description: "A movie rating app built with React.js.",
-      link: "https://usepopcorn-beryl.vercel.app/",
+      name: "Shows & Movies Streaming Site",
+      description: "A website that will use external APIs to stream non-copyrighted free shows and movies.",
+      link: "https://abhi293.github.io/6th-semester/AD_lab/project_movie-site/",
     },
     {
-      name: "ChatHub",
-      description: "A real-time chat application using WebSockets.",
-      link: "#",
+      name: "AI-Based-Review-Classifier",
+      description: "A smart chatbot that uses Logistic Regression to classify reviews as positive or negative.",
+      link:"https://github.com/abhi293/AI-Based-Review-Classfier.git",
     },
   ],
 
