@@ -22,7 +22,7 @@ const Contact = () => {
     setIsSuccess(false);
 
     try {
-      await axios.post("https://nikhiljsxback-frdfcrargwf0e9ed.canadacentral-01.azurewebsites.net/send", formData);
+      await axios.post("https://my-portfolio-b-anejejdebjawgef2.canadacentral-01.azurewebsites.net/send", formData);
       setStatus("✅ Message Sent Successfully!");
       setIsSuccess(true);
       setFormData({ name: "", email: "", message: "" });
